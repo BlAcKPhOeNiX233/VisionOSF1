@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct RealityKitF1App: App {
+struct VisionOSF1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(detailView: AnyView(GPView()))
         }
     }
 }

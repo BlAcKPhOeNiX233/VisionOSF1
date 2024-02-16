@@ -11,6 +11,16 @@
 		A13A14032B7D624F0036F591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A14022B7D624F0036F591 /* ContentView.swift */; };
 		A13A14052B7D62500036F591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A14042B7D62500036F591 /* Assets.xcassets */; };
 		A13A14082B7D62500036F591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13A14072B7D62500036F591 /* Preview Assets.xcassets */; };
+		A13E91122B7E90F600577AD1 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91112B7E90F600577AD1 /* Driver.swift */; };
+		A13E91172B7E931800577AD1 /* Tyre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91162B7E931800577AD1 /* Tyre.swift */; };
+		A13E91192B7E934C00577AD1 /* TyreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91182B7E934C00577AD1 /* TyreType.swift */; };
+		A13E911C2B7E989B00577AD1 /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E911B2B7E989B00577AD1 /* LapRowView.swift */; };
+		A13E911E2B7E98DE00577AD1 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E911D2B7E98DE00577AD1 /* Team.swift */; };
+		A13E91222B7F996B00577AD1 /* GPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91212B7F996B00577AD1 /* GPView.swift */; };
+		A13E91242B7F9B5400577AD1 /* DriversChampioshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91232B7F9B5400577AD1 /* DriversChampioshipView.swift */; };
+		A13E91262B7F9CDF00577AD1 /* DriverRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E91252B7F9CDF00577AD1 /* DriverRowView.swift */; };
+		A1E620712B7FD68000E6DF4B /* TeamRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E620702B7FD68000E6DF4B /* TeamRowView.swift */; };
+		A1E620732B7FD91600E6DF4B /* ConstructorsChampionshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E620722B7FD91600E6DF4B /* ConstructorsChampionshipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		A13A14022B7D624F0036F591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A13A14042B7D62500036F591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13A14072B7D62500036F591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A13E91112B7E90F600577AD1 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		A13E91162B7E931800577AD1 /* Tyre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tyre.swift; sourceTree = "<group>"; };
+		A13E91182B7E934C00577AD1 /* TyreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyreType.swift; sourceTree = "<group>"; };
+		A13E911B2B7E989B00577AD1 /* LapRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapRowView.swift; sourceTree = "<group>"; };
+		A13E911D2B7E98DE00577AD1 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		A13E91212B7F996B00577AD1 /* GPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPView.swift; sourceTree = "<group>"; };
+		A13E91232B7F9B5400577AD1 /* DriversChampioshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversChampioshipView.swift; sourceTree = "<group>"; };
+		A13E91252B7F9CDF00577AD1 /* DriverRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRowView.swift; sourceTree = "<group>"; };
+		A1E620702B7FD68000E6DF4B /* TeamRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRowView.swift; sourceTree = "<group>"; };
+		A1E620722B7FD91600E6DF4B /* ConstructorsChampionshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructorsChampionshipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		A13A13FF2B7D624F0036F591 /* RealityKitF1 */ = {
 			isa = PBXGroup;
 			children = (
+				A13E911A2B7E988E00577AD1 /* Views */,
+				A13E91102B7E90D900577AD1 /* Models */,
 				A13A14002B7D624F0036F591 /* RealityKitF1App.swift */,
 				A13A14022B7D624F0036F591 /* ContentView.swift */,
 				A13A14042B7D62500036F591 /* Assets.xcassets */,
@@ -65,6 +87,30 @@
 				A13A14072B7D62500036F591 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A13E91102B7E90D900577AD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A13E91112B7E90F600577AD1 /* Driver.swift */,
+				A13E91162B7E931800577AD1 /* Tyre.swift */,
+				A13E91182B7E934C00577AD1 /* TyreType.swift */,
+				A13E911D2B7E98DE00577AD1 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A13E911A2B7E988E00577AD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A13E911B2B7E989B00577AD1 /* LapRowView.swift */,
+				A13E91212B7F996B00577AD1 /* GPView.swift */,
+				A13E91232B7F9B5400577AD1 /* DriversChampioshipView.swift */,
+				A13E91252B7F9CDF00577AD1 /* DriverRowView.swift */,
+				A1E620702B7FD68000E6DF4B /* TeamRowView.swift */,
+				A1E620722B7FD91600E6DF4B /* ConstructorsChampionshipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A13A13F82B7D624F0036F591 /* Build configuration list for PBXProject "RealityKitF1" */;
+			buildConfigurationList = A13A13F82B7D624F0036F591 /* Build configuration list for PBXProject "VisionOsF1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E911C2B7E989B00577AD1 /* LapRowView.swift in Sources */,
+				A1E620712B7FD68000E6DF4B /* TeamRowView.swift in Sources */,
+				A13E91222B7F996B00577AD1 /* GPView.swift in Sources */,
+				A13E91172B7E931800577AD1 /* Tyre.swift in Sources */,
+				A1E620732B7FD91600E6DF4B /* ConstructorsChampionshipView.swift in Sources */,
+				A13E911E2B7E98DE00577AD1 /* Team.swift in Sources */,
+				A13E91242B7F9B5400577AD1 /* DriversChampioshipView.swift in Sources */,
+				A13E91122B7E90F600577AD1 /* Driver.swift in Sources */,
+				A13E91262B7F9CDF00577AD1 /* DriverRowView.swift in Sources */,
 				A13A14032B7D624F0036F591 /* ContentView.swift in Sources */,
+				A13E91192B7E934C00577AD1 /* TyreType.swift in Sources */,
 				A13A14012B7D624F0036F591 /* RealityKitF1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,9 +343,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanchez.RealityKitF1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 7;
 			};
 			name = Debug;
 		};
@@ -316,16 +376,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanchez.RealityKitF1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 7;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A13A13F82B7D624F0036F591 /* Build configuration list for PBXProject "RealityKitF1" */ = {
+		A13A13F82B7D624F0036F591 /* Build configuration list for PBXProject "VisionOsF1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A13A14092B7D62500036F591 /* Debug */,

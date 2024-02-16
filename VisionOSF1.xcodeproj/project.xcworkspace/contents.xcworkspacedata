@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/bryansanchez/Documents/RealityKit/RealityKitF1/VisionOsF1.xcodeproj">
    </FileRef>
 </Workspace>
